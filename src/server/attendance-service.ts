@@ -1,6 +1,7 @@
 import "server-only";
 
 import { prisma } from "@/server/db";
+import type { Prisma } from "@prisma/client";
 import type { AttendancePageRow, AttendanceStatus, AttendanceUpdateItem } from "@/lib/types";
 import { formatTaipeiDate } from "@/lib/date";
 import { attendanceStatusOrder, isAbsentStatus, isLeaveStatus } from "@/lib/status";
@@ -12,7 +13,7 @@ export async function getStudents(includeInactive = false) {
   });
 }
 
-export async function listStudents() {
+export async function listStudents(): Promise<Prisma.StudentGetPayload<Prisma.StudentDefaultArgs>[]> {
   return prisma.student.findMany({
     orderBy: [
       { active: "desc" },
