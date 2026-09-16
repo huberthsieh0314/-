@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:960fa57531f15f8e70855dd08799c0efaf91bc5477b43147a62d17d47d764244",
+      "size": 4906,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.4.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "e0f84cb8ab776813a17750423a6ce1b75b870df3ab2c21c54df9ce02646c1e1c",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "12078947",
+        "sh.brew.bottle.installed_size": "43089095",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.19-35-g9574410\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"linkage_files\":[\"bin/openssl\",\"lib/engines-3/afalg.so\",\"lib/engines-3/capi.so\",\"lib/engines-3/loader_attic.so\",\"lib/engines-3/padlock.so\",\"lib/libcrypto.so.3\",\"lib/libssl.so.3\",\"lib/ossl-modules/legacy.so\"],\"binary_relocation_files\":[\"lib/libcrypto.a\",\"lib/libcrypto.so.3\"],\"source_modified_time\":1787658514,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-08-13\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2026-08-13\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-openssl@3\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"name\":\"ca-certificates\",\"versionInfo\":\"2026-08-13\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"MPL-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ca-certificates@2026-08-13\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-openssl@3\",\"name\":\"openssl@3\",\"versionInfo\":\"3.6.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-08-26T01:32:02Z\",\"licenseConcluded\":\"Apache-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:e0f84cb8ab776813a17750423a6ce1b75b870df3ab2c21c54df9ce02646c1e1c\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/openssl%403@3.6.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"e0f84cb8ab776813a17750423a6ce1b75b870df3ab2c21c54df9ce02646c1e1c\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-openssl@3\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-openssl@3-src\"}]}",
+        "sh.brew.path_exec_files": "bin/openssl,bin/c_rehash"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d736d0058a7ae0e65aaef35137560007c28b5a943fd17921fc2b3c16754cf32a",
+      "size": 4834,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.4.arm64_sequoia",
+        "sh.brew.bottle.digest": "b7139450ed389be82f807daaadffa778d9c4753a3b2d8f784da1cf7383994ee2",
+        "sh.brew.bottle.size": "10966756",
+        "sh.brew.bottle.installed_size": "37746520",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.19-35-g9574410\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"linkage_files\":[\"bin/openssl\",\"lib/engines-3/capi.dylib\",\"lib/engines-3/loader_attic.dylib\",\"lib/engines-3/padlock.dylib\",\"lib/libcrypto.3.dylib\",\"lib/libssl.3.dylib\",\"lib/ossl-modules/legacy.dylib\"],\"binary_relocation_files\":[\"lib/libcrypto.3.dylib\",\"lib/libcrypto.a\"],\"source_modified_time\":1787658514,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-08-13\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2026-08-13\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-openssl@3\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"name\":\"ca-certificates\",\"versionInfo\":\"2026-08-13\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"MPL-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ca-certificates@2026-08-13\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"26.3\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-openssl@3\",\"name\":\"openssl@3\",\"versionInfo\":\"3.6.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-08-26T01:32:02Z\",\"licenseConcluded\":\"Apache-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:b7139450ed389be82f807daaadffa778d9c4753a3b2d8f784da1cf7383994ee2\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/openssl%403@3.6.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"b7139450ed389be82f807daaadffa778d9c4753a3b2d8f784da1cf7383994ee2\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-openssl@3\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-openssl@3-src\"}]}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3144599bd44457bbcfdb54b1d48630d262e7cfdf926f90988a73abc489204efc",
+      "size": 4831,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.4.arm64_sonoma",
+        "sh.brew.bottle.digest": "01887accd1964e9940ba516509e948eed9850d58d55cc02ca52c503435750685",
+        "sh.brew.bottle.size": "10938984",
+        "sh.brew.bottle.installed_size": "37649952",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.19-35-g9574410\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"linkage_files\":[\"bin/openssl\",\"lib/engines-3/capi.dylib\",\"lib/engines-3/loader_attic.dylib\",\"lib/engines-3/padlock.dylib\",\"lib/libcrypto.3.dylib\",\"lib/libssl.3.dylib\",\"lib/ossl-modules/legacy.dylib\"],\"binary_relocation_files\":[\"lib/libcrypto.3.dylib\",\"lib/libcrypto.a\"],\"source_modified_time\":1787658514,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-08-13\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2026-08-13\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-openssl@3\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"name\":\"ca-certificates\",\"versionInfo\":\"2026-08-13\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"MPL-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ca-certificates@2026-08-13\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"16.2\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-openssl@3\",\"name\":\"openssl@3\",\"versionInfo\":\"3.6.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-08-26T01:32:02Z\",\"licenseConcluded\":\"Apache-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:01887accd1964e9940ba516509e948eed9850d58d55cc02ca52c503435750685\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/openssl%403@3.6.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"01887accd1964e9940ba516509e948eed9850d58d55cc02ca52c503435750685\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-openssl@3\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-openssl@3-src\"}]}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:24d195af9b1b334b68dfb3cf63c7909b7cf2503609ef89730465ba7ac3f621c8",
+      "size": 4824,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.4.arm64_tahoe",
+        "sh.brew.bottle.digest": "8c7dab98311d025fda379dba80eaf985af1ceca26c403c66318b3c7d43a028b9",
+        "sh.brew.bottle.size": "10964306",
+        "sh.brew.bottle.installed_size": "37742524",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.19-35-g9574410\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"linkage_files\":[\"bin/openssl\",\"lib/engines-3/capi.dylib\",\"lib/engines-3/loader_attic.dylib\",\"lib/engines-3/padlock.dylib\",\"lib/libcrypto.3.dylib\",\"lib/libssl.3.dylib\",\"lib/ossl-modules/legacy.dylib\"],\"binary_relocation_files\":[\"lib/libcrypto.3.dylib\",\"lib/libcrypto.a\"],\"source_modified_time\":1787658514,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-08-13\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2026-08-13\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.6\",\"clt\":\"26.6.0.0.1781586589\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-openssl@3\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"name\":\"ca-certificates\",\"versionInfo\":\"2026-08-13\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"MPL-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ca-certificates@2026-08-13\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"26.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-openssl@3\",\"name\":\"openssl@3\",\"versionInfo\":\"3.6.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-08-26T01:32:02Z\",\"licenseConcluded\":\"Apache-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:8c7dab98311d025fda379dba80eaf985af1ceca26c403c66318b3c7d43a028b9\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/openssl%403@3.6.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"8c7dab98311d025fda379dba80eaf985af1ceca26c403c66318b3c7d43a028b9\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-openssl@3\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-openssl@3-src\"}]}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9ef7b904e31d1c0938b1037f0a3843b9b9cba5ea61028a61c969f16357b11d08",
+      "size": 4911,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.4.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "73c4159878b98d82e6f4e343ef34a79b74ca2224927d38c0956ce3ea781d6d20",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "11150972",
+        "sh.brew.bottle.installed_size": "42500460",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.19-35-g9574410\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"linkage_files\":[\"bin/openssl\",\"lib/engines-3/afalg.so\",\"lib/engines-3/capi.so\",\"lib/engines-3/loader_attic.so\",\"lib/engines-3/padlock.so\",\"lib/libcrypto.so.3\",\"lib/libssl.so.3\",\"lib/ossl-modules/legacy.so\"],\"binary_relocation_files\":[\"lib/libcrypto.a\",\"lib/libcrypto.so.3\"],\"source_modified_time\":1787658514,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-08-13\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2026-08-13\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-openssl@3\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"name\":\"ca-certificates\",\"versionInfo\":\"2026-08-13\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"MPL-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ca-certificates@2026-08-13\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-openssl@3\",\"name\":\"openssl@3\",\"versionInfo\":\"3.6.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-08-26T01:32:02Z\",\"licenseConcluded\":\"Apache-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:73c4159878b98d82e6f4e343ef34a79b74ca2224927d38c0956ce3ea781d6d20\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/openssl%403@3.6.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"73c4159878b98d82e6f4e343ef34a79b74ca2224927d38c0956ce3ea781d6d20\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-openssl@3\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-openssl@3-src\"}]}",
+        "sh.brew.path_exec_files": "bin/openssl,bin/c_rehash"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8c1569d805dcb5fb1ae65b593a8fd8531e3173acdcc434affac96327ea666fff",
+      "size": 4843,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 27"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.4.arm64_golden_gate",
+        "sh.brew.bottle.digest": "51eb22ee51d7b6e678ef5dc2be234adb46f9f541ac1d98e5ed08c9a7535789dc",
+        "sh.brew.bottle.size": "10965156",
+        "sh.brew.bottle.installed_size": "37759406",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-263-g983dcdc\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"linkage_files\":[\"bin/openssl\",\"lib/engines-3/capi.dylib\",\"lib/engines-3/loader_attic.dylib\",\"lib/engines-3/padlock.dylib\",\"lib/libcrypto.3.dylib\",\"lib/libssl.3.dylib\",\"lib/ossl-modules/legacy.dylib\"],\"binary_relocation_files\":[\"lib/libcrypto.3.dylib\",\"lib/libcrypto.a\"],\"source_modified_time\":1787658514,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-08-13\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2026-08-13\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 27\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-openssl@3\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"name\":\"ca-certificates\",\"versionInfo\":\"2026-08-13\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"MPL-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"37f5c1413f65c05d86e1279d76699f5d27ad77f8126f5776db13f3d64ee3d010\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ca-certificates@2026-08-13\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-openssl@3\",\"name\":\"openssl@3\",\"versionInfo\":\"3.6.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-10T06:52:43Z\",\"licenseConcluded\":\"Apache-2.0\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:51eb22ee51d7b6e678ef5dc2be234adb46f9f541ac1d98e5ed08c9a7535789dc\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/openssl%403@3.6.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"51eb22ee51d7b6e678ef5dc2be234adb46f9f541ac1d98e5ed08c9a7535789dc\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ca-certificates-2026-08-13\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-openssl@3\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-openssl@3-src\"}]}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-08-26T01:32:02Z",
+    "org.opencontainers.image.description": "Cryptography and SSL/TLS Toolkit",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/openssl@3",
+    "org.opencontainers.image.licenses": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "3.6.4",
+    "org.opencontainers.image.revision": "d739f6ddad12f937d557bc0513e8660d312431e5",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/d739f6ddad12f937d557bc0513e8660d312431e5/Formula/o/openssl@3.rb",
+    "org.opencontainers.image.title": "openssl@3",
+    "org.opencontainers.image.url": "https://openssl-library.org",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.6.4"
+  }
+}

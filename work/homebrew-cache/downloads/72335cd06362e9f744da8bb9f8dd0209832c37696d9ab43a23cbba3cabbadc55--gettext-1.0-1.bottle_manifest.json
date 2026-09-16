@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e5b17bfd889c516d5fc629011f1e4e9465c7b1b63b28e0758cc8960df251913e",
+      "size": 7278,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.arm64_linux.1",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "a436430dfcd915d3c9cd7888f6b4f82f7d02d1d9556f48bef218704df482879e",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "11739940",
+        "sh.brew.bottle.installed_size": "45308071",
+        "sh.brew.license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.6-34-g63b90be\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"libexec/gettext/user-email\",\"share/doc/gettext/examples/installpaths\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\",\"share/man/man1/printf_gettext.1\",\"share/man/man1/printf_ngettext.1\"],\"source_modified_time\":1769644482,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-13\",\"runtime_dependencies\":[{\"full_name\":\"json-c\",\"version\":\"0.19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.19\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"brotli\",\"version\":\"1.2.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.2.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libnghttp2\",\"version\":\"1.69.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.69.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libnghttp3\",\"version\":\"1.17.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.17.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"ca-certificates\",\"version\":\"2026-05-14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-05-14\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"openssl@3\",\"version\":\"3.6.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libngtcp2\",\"version\":\"1.24.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libpsl\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"0.22.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libssh2\",\"version\":\"1.11.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.11.1_1\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7_1\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"keyutils\",\"version\":\"1.6.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.3\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.2\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libxcrypt\",\"version\":\"4.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.5.2\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"cyrus-sasl\",\"version\":\"2.1.28\",\"revision\":2,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.28_2\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"sqlite\",\"version\":\"3.53.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.53.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"util-linux\",\"version\":\"2.42.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.42.2\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"openldap\",\"version\":\"2.6.13\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.6.13\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"curl\",\"version\":\"8.21.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"8.21.0\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"libxml2\",\"version\":\"2.15.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.15.3\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"acl\",\"version\":\"2.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.4.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/msgcat,bin/recode-sr-latin,bin/msgcmp,bin/msgpre,bin/msgfmt,bin/msgattrib,bin/autopoint,bin/envsubst,bin/gettext.sh,bin/msgen,bin/po-fetch,bin/msginit,bin/gettextize,bin/spit,bin/printf_gettext,bin/printf_ngettext,bin/msgunfmt,bin/gettext,bin/msgmerge,bin/msgcomm,bin/msguniq,bin/msggrep,bin/msgconv,bin/msgfilter,bin/ngettext,bin/xgettext,bin/msgexec"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7a2e17bdfd3dd6051740deb3db1cedad4ef4e27b20f45545db72e904085ad3e4",
+      "size": 3134,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.arm64_sequoia.1",
+        "sh.brew.bottle.digest": "dde3cd0db0d7549fadf762b901f8c548dae99e3c592a6e6d41f60e1436253e5e",
+        "sh.brew.bottle.size": "10302895",
+        "sh.brew.bottle.installed_size": "35480664",
+        "sh.brew.license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.6-34-g63b90be\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"libexec/gettext/user-email\",\"share/doc/gettext/examples/README\",\"share/doc/gettext/examples/installpaths\",\"share/gettext/po/Makefile.in.in\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\",\"share/man/man1/printf_gettext.1\",\"share/man/man1/printf_ngettext.1\"],\"source_modified_time\":1769644482,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"json-c\",\"version\":\"0.19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.19\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/msgconv,bin/msggrep,bin/autopoint,bin/msgpre,bin/msgcomm,bin/msgen,bin/spit,bin/msgmerge,bin/envsubst,bin/msginit,bin/printf_gettext,bin/gettext,bin/printf_ngettext,bin/gettext.sh,bin/msgcmp,bin/msgcat,bin/recode-sr-latin,bin/msgexec,bin/ngettext,bin/msgunfmt,bin/po-fetch,bin/msgfilter,bin/msgfmt,bin/msgattrib,bin/xgettext,bin/gettextize,bin/msguniq"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c0ef22c34857a4876623035d92fcb4197b52944220f07deaae398a61b0be70d3",
+      "size": 3131,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.arm64_sonoma.1",
+        "sh.brew.bottle.digest": "d11a97db1d735fb9860a9637e72b2765ef93536851d36c8f0b5cbbc22b539c5a",
+        "sh.brew.bottle.size": "10301448",
+        "sh.brew.bottle.installed_size": "35515512",
+        "sh.brew.license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.6-34-g63b90be\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"libexec/gettext/user-email\",\"share/doc/gettext/examples/README\",\"share/doc/gettext/examples/installpaths\",\"share/gettext/po/Makefile.in.in\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\",\"share/man/man1/printf_gettext.1\",\"share/man/man1/printf_ngettext.1\"],\"source_modified_time\":1769644482,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"json-c\",\"version\":\"0.19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.19\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/msgconv,bin/msggrep,bin/autopoint,bin/msgpre,bin/msgcomm,bin/msgen,bin/spit,bin/msgmerge,bin/envsubst,bin/msginit,bin/printf_gettext,bin/gettext,bin/printf_ngettext,bin/gettext.sh,bin/msgcmp,bin/msgcat,bin/recode-sr-latin,bin/msgexec,bin/ngettext,bin/msgunfmt,bin/po-fetch,bin/msgfilter,bin/msgfmt,bin/msgattrib,bin/xgettext,bin/gettextize,bin/msguniq"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4669160d557198df1fe862254d54b967ba29b8a5f116902d39ff148f43f11d41",
+      "size": 3124,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.arm64_tahoe.1",
+        "sh.brew.bottle.digest": "2b713227e438f51d025d76df24cfa45a2b813b61718df7bb91a6cedb1091037b",
+        "sh.brew.bottle.size": "10229705",
+        "sh.brew.bottle.installed_size": "35337780",
+        "sh.brew.license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.6-34-g63b90be\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"libexec/gettext/user-email\",\"share/doc/gettext/examples/README\",\"share/doc/gettext/examples/installpaths\",\"share/gettext/po/Makefile.in.in\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\",\"share/man/man1/printf_gettext.1\",\"share/man/man1/printf_ngettext.1\"],\"source_modified_time\":1769644482,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"json-c\",\"version\":\"0.19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.19\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.4\",\"clt\":\"26.4.0.0.1774242506\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/msgconv,bin/msggrep,bin/autopoint,bin/msgpre,bin/msgcomm,bin/msgen,bin/spit,bin/msgmerge,bin/envsubst,bin/msginit,bin/printf_gettext,bin/gettext,bin/printf_ngettext,bin/gettext.sh,bin/msgcmp,bin/msgcat,bin/recode-sr-latin,bin/msgexec,bin/ngettext,bin/msgunfmt,bin/po-fetch,bin/msgfilter,bin/msgfmt,bin/msgattrib,bin/xgettext,bin/gettextize,bin/msguniq"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:74e97016862c0c121f05f0a3ecbea473ed29729a315c9a4c1ad4a55ee31fbdf4",
+      "size": 3041,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.sonoma.1",
+        "sh.brew.bottle.digest": "e0072004be0db53c5f501d6ab2b78b9219067243f8989c40604720751dd6bdc4",
+        "sh.brew.bottle.size": "10218156",
+        "sh.brew.bottle.installed_size": "33964001",
+        "sh.brew.license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.6-44-g72c1319\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"libexec/gettext/user-email\",\"share/doc/gettext/examples/installpaths\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\",\"share/man/man1/printf_gettext.1\",\"share/man/man1/printf_ngettext.1\"],\"source_modified_time\":1769644482,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"json-c\",\"version\":\"0.19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.19\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/msgconv,bin/msggrep,bin/autopoint,bin/msgpre,bin/msgcomm,bin/msgen,bin/spit,bin/msgmerge,bin/envsubst,bin/msginit,bin/printf_gettext,bin/gettext,bin/printf_ngettext,bin/gettext.sh,bin/msgcmp,bin/msgcat,bin/recode-sr-latin,bin/msgexec,bin/ngettext,bin/msgunfmt,bin/po-fetch,bin/msgfilter,bin/msgfmt,bin/msgattrib,bin/xgettext,bin/gettextize,bin/msguniq"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c08b19bfb41d0811e6b990111c5861fc6e8b49b33f40284fc8c8e882440c39f0",
+      "size": 7283,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "2dcf2f53d79cf6beb5c0df6f880c2cb7d21890be81533b3f74fc628d7f435cac",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "11760690",
+        "sh.brew.bottle.installed_size": "40900337",
+        "sh.brew.license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.6-34-g63b90be\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"libexec/gettext/user-email\",\"share/doc/gettext/examples/installpaths\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\",\"share/man/man1/printf_gettext.1\",\"share/man/man1/printf_ngettext.1\"],\"source_modified_time\":1769644482,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-13\",\"runtime_dependencies\":[{\"full_name\":\"json-c\",\"version\":\"0.19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.19\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"brotli\",\"version\":\"1.2.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.2.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libnghttp2\",\"version\":\"1.69.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.69.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libnghttp3\",\"version\":\"1.17.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.17.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"ca-certificates\",\"version\":\"2026-05-14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-05-14\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"openssl@3\",\"version\":\"3.6.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libngtcp2\",\"version\":\"1.24.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libpsl\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"0.22.0\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libssh2\",\"version\":\"1.11.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.11.1_1\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7_1\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"keyutils\",\"version\":\"1.6.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.3\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.2\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"libxcrypt\",\"version\":\"4.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.5.2\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"cyrus-sasl\",\"version\":\"2.1.28\",\"revision\":2,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.28_2\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"sqlite\",\"version\":\"3.53.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.53.3\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"util-linux\",\"version\":\"2.42.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.42.2\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"openldap\",\"version\":\"2.6.13\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.6.13\",\"declared_directly\":false,\"compatibility_version\":1},{\"full_name\":\"curl\",\"version\":\"8.21.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"8.21.0\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"libxml2\",\"version\":\"2.15.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.15.3\",\"declared_directly\":true,\"compatibility_version\":1},{\"full_name\":\"acl\",\"version\":\"2.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.4.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/xgettext,bin/recode-sr-latin,bin/msgpre,bin/msgfilter,bin/printf_ngettext,bin/msgfmt,bin/msgexec,bin/po-fetch,bin/autopoint,bin/spit,bin/msgcat,bin/msgunfmt,bin/msginit,bin/ngettext,bin/gettextize,bin/msggrep,bin/printf_gettext,bin/msgen,bin/msguniq,bin/msgconv,bin/gettext,bin/msgattrib,bin/msgcomm,bin/envsubst,bin/gettext.sh,bin/msgcmp,bin/msgmerge"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:581a7bac0b09d75f8c25adbdd8a46b446b4d7928f349f79330015d22044c7360",
+      "size": 6990,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 27"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.arm64_golden_gate.1",
+        "sh.brew.bottle.digest": "f65cd0001209a5d431234383e2ff96af4f82f9da1b63b43823edcdf837422856",
+        "sh.brew.bottle.size": "10286821",
+        "sh.brew.bottle.installed_size": "34863873",
+        "sh.brew.license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-269-ge103b39\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"libexec/gettext/user-email\",\"share/doc/gettext/examples/README\",\"share/doc/gettext/examples/installpaths\",\"share/gettext/po/Makefile.in.in\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\",\"share/man/man1/printf_gettext.1\",\"share/man/man1/printf_ngettext.1\"],\"linkage_files\":[\"bin/envsubst\",\"bin/gettext\",\"bin/msgattrib\",\"bin/msgcat\",\"bin/msgcmp\",\"bin/msgcomm\",\"bin/msgconv\",\"bin/msgen\",\"bin/msgexec\",\"bin/msgfilter\",\"bin/msgfmt\",\"bin/msggrep\",\"bin/msginit\",\"bin/msgmerge\",\"bin/msgpre\",\"bin/msgunfmt\",\"bin/msguniq\",\"bin/ngettext\",\"bin/printf_gettext\",\"bin/printf_ngettext\",\"bin/recode-sr-latin\",\"bin/spit\",\"bin/xgettext\",\"lib/libasprintf.0.dylib\",\"lib/libgettextlib-1.0.dylib\",\"lib/libgettextpo.0.dylib\",\"lib/libgettextsrc-1.0.dylib\",\"lib/libintl.8.dylib\",\"lib/libtextstyle.0.dylib\",\"libexec/gettext/cldr-plurals\",\"libexec/gettext/hostname\",\"libexec/gettext/urlget\"],\"binary_relocation_files\":[\"bin/msgfmt\",\"bin/msginit\",\"bin/msgunfmt\",\"lib/libgettextlib-1.0.dylib\",\"lib/libgettextlib.a\",\"lib/libgettextsrc-1.0.dylib\",\"lib/libgettextsrc.a\"],\"source_modified_time\":1769644482,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"json-c\",\"version\":\"0.19\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"0.19\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 27\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-json-c-0.19\",\"SPDXRef-Package-SPDXRef-libunistring-1.4.2\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-gettext\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-json-c-0.19\",\"name\":\"json-c\",\"versionInfo\":\"0.19\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"MIT\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:6b45746f31780a84ae3ed11d056bd101d1b0a6d0f16bf91aad2d35a18f6107dc\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"6b45746f31780a84ae3ed11d056bd101d1b0a6d0f16bf91aad2d35a18f6107dc\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/json-c@0.19\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Package-SPDXRef-libunistring-1.4.2\",\"name\":\"libunistring\",\"versionInfo\":\"1.4.2\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"GPL-2.0-or-later OR LGPL-3.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:d489b51a9ce0a76657f226159fdc39eab37798c86b0465c56ccfbde60c98d953\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"d489b51a9ce0a76657f226159fdc39eab37798c86b0465c56ccfbde60c98d953\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/libunistring@1.4.2\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-gettext\",\"name\":\"gettext\",\"versionInfo\":\"1.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-10T08:21:16Z\",\"licenseConcluded\":\"GPL-3.0-or-later AND LGPL-2.1-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:f65cd0001209a5d431234383e2ff96af4f82f9da1b63b43823edcdf837422856\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/gettext@1.0\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"f65cd0001209a5d431234383e2ff96af4f82f9da1b63b43823edcdf837422856\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-json-c-0.19\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-gettext\"},{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-libunistring-1.4.2\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-gettext\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-gettext-src\"}]}",
+        "sh.brew.path_exec_files": "bin/msgconv,bin/msggrep,bin/autopoint,bin/msgpre,bin/msgcomm,bin/msgen,bin/spit,bin/msgmerge,bin/envsubst,bin/msginit,bin/printf_gettext,bin/gettext,bin/printf_ngettext,bin/gettext.sh,bin/msgcmp,bin/msgcat,bin/recode-sr-latin,bin/msgexec,bin/ngettext,bin/msgunfmt,bin/po-fetch,bin/msgfilter,bin/msgfmt,bin/msgattrib,bin/xgettext,bin/gettextize,bin/msguniq"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-07-03T17:33:32Z",
+    "org.opencontainers.image.description": "GNU internationalization (i18n) and localization (l10n) library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/gettext",
+    "org.opencontainers.image.licenses": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+    "org.opencontainers.image.ref.name": "1.0-1",
+    "org.opencontainers.image.revision": "dc8bb7587da4afaae5c25e4a8dad340164bab475",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/dc8bb7587da4afaae5c25e4a8dad340164bab475/Formula/g/gettext.rb",
+    "org.opencontainers.image.title": "gettext",
+    "org.opencontainers.image.url": "https://www.gnu.org/software/gettext/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.0"
+  }
+}

@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum AttendanceStatus {
+  PRESENT
+  LEAVE_PERSONAL
+  LEAVE_SICK
+  LEAVE_OFFICIAL
+  LEAVE_BEREAVEMENT
+  ABSENT
+  LATE
+  EARLY_LEAVE
+}
+
+model Student {
+  id            String       @id @default(cuid())
+  studentNumber String       @unique @map("student_number")
+  name          String
+  studentId     String?      @unique @map("student_id")
+  active        Boolean      @default(true)
+  createdAt     DateTime     @default(now()) @map("created_at")
+  updatedAt     DateTime     @updatedAt @map("updated_at")
+  attendance    Attendance[]
+
+  @@index([studentNumber])
+  @@index([name])
+  @@index([studentId])
+  @@map("students")
+}
+
+model Attendance {
+  id        String           @id @default(cuid())
+  student   Student          @relation(fields: [studentId], references: [id], onDelete: Restrict)
+  studentId String           @map("student_id")
+  date      DateTime
+  status    AttendanceStatus
+  note      String?
+  createdAt DateTime         @default(now()) @map("created_at")
+  updatedAt DateTime         @updatedAt @map("updated_at")
+
+  @@unique([studentId, date])
+  @@index([date])
+  @@index([status])
+  @@map("attendance")
+}

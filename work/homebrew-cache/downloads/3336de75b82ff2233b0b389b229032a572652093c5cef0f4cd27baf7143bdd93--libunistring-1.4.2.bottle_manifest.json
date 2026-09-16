@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fdd1ac2ed1520c8591348d72f9ea1c307005a97297f73b338d4c0e763fccce08",
+      "size": 2181,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "362f8bd62dc8a3db8ca85938b2bfc7ebd09bd3d4f676ae1491183239d576b7ea",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1904882",
+        "sh.brew.bottle.installed_size": "6575547",
+        "sh.brew.license": "GPL-2.0-only OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-17-ge8ecbc4\",\"changed_files\":[],\"source_modified_time\":1771888317,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a5913a2ba48ae0d22bf5ec56b4caaa24c289641b0a93dc25ac6143a49e066cce",
+      "size": 2123,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "463b68c92d30d845df10b1b137aa8e41a744f1ce2d2cab024dd26c766335b797",
+        "sh.brew.bottle.size": "1877643",
+        "sh.brew.bottle.installed_size": "5767541",
+        "sh.brew.license": "GPL-2.0-only OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-20-ga43dea8\",\"changed_files\":[],\"source_modified_time\":1771888317,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e936b4323ed30c18bda12248a9d72ea549428064b48af10beb4d31872fdcfd07",
+      "size": 2120,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "dc4d4b4406a2c7032dd838ae362ecaeba114d8ac9d9daaa18f760d1d71ba3577",
+        "sh.brew.bottle.size": "1870524",
+        "sh.brew.bottle.installed_size": "5768429",
+        "sh.brew.license": "GPL-2.0-only OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-20-ga43dea8\",\"changed_files\":[],\"source_modified_time\":1771888317,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a0c3d062a4d476662f7556a8d440f5e790ee5799596a532bcedb1d608251e46d",
+      "size": 2115,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "bae6d6d8dffc573c039a850a96e36f1b7fd846abd9ccada8260b7e888b5a3646",
+        "sh.brew.bottle.size": "1877577",
+        "sh.brew.bottle.installed_size": "5755827",
+        "sh.brew.license": "GPL-2.0-only OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-20-ga43dea8\",\"changed_files\":[],\"source_modified_time\":1771888317,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a957cc16789b8798ed9dba9396c0042f545c1722684d41f26cad95fcf0a0122a",
+      "size": 2104,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.2.sonoma",
+        "sh.brew.bottle.digest": "fbb3a7908a19f306823dbd51b417705c73f710a9a1fb1e34ba7aa67a3c966094",
+        "sh.brew.bottle.size": "1917803",
+        "sh.brew.bottle.installed_size": "5824893",
+        "sh.brew.license": "GPL-2.0-only OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-22-g73daad7\",\"changed_files\":[],\"source_modified_time\":1771888317,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7c7ddaa5b66494e8e808aa8348150200223c524de705eaf264c4da5ae970a46e",
+      "size": 2186,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "2491acf49407cf75d5f95a6296f2a1c0294646834022fdcad7e22471c0c9a6d4",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1906918",
+        "sh.brew.bottle.installed_size": "6411925",
+        "sh.brew.license": "GPL-2.0-only OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-17-ge8ecbc4\",\"changed_files\":[],\"source_modified_time\":1771888317,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2646ea59888cba285f9178eeeecc5bf0790cb8c2dc4f128f36c15911fe15e90d",
+      "size": 3502,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 27"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.2.arm64_golden_gate",
+        "sh.brew.bottle.digest": "d489b51a9ce0a76657f226159fdc39eab37798c86b0465c56ccfbde60c98d953",
+        "sh.brew.bottle.size": "1872586",
+        "sh.brew.bottle.installed_size": "5745367",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-263-g983dcdc\",\"changed_files\":[],\"linkage_files\":[\"lib/libunistring.5.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1771888317,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 27\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-libunistring\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-libunistring\",\"name\":\"libunistring\",\"versionInfo\":\"1.4.2\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-10T06:16:39Z\",\"licenseConcluded\":\"GPL-2.0-or-later OR LGPL-3.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:d489b51a9ce0a76657f226159fdc39eab37798c86b0465c56ccfbde60c98d953\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/libunistring@1.4.2\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"d489b51a9ce0a76657f226159fdc39eab37798c86b0465c56ccfbde60c98d953\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-libunistring-src\"}]}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-24T05:51:09Z",
+    "org.opencontainers.image.description": "C string library for manipulating Unicode strings",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libunistring",
+    "org.opencontainers.image.licenses": "GPL-2.0-only OR LGPL-3.0-or-later",
+    "org.opencontainers.image.ref.name": "1.4.2",
+    "org.opencontainers.image.revision": "dd5bbb0a4064e7ded29f6ce80bf3dca4dc7b2883",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/dd5bbb0a4064e7ded29f6ce80bf3dca4dc7b2883/Formula/lib/libunistring.rb",
+    "org.opencontainers.image.title": "libunistring",
+    "org.opencontainers.image.url": "https://www.gnu.org/software/libunistring/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.4.2"
+  }
+}

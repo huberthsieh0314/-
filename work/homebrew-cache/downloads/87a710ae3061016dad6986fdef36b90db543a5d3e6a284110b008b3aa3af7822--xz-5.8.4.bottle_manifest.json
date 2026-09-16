@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bb09a01ca279cb2e1f9ff72a58580287e1fcc17301bdecf602fd1f8cebd0a779",
+      "size": 3720,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 27"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.4.arm64_golden_gate",
+        "sh.brew.bottle.digest": "b2b5d6523153be05c20bcc51cd358ea3dd1f4bf893748fdedb779ab508ea63ce",
+        "sh.brew.bottle.size": "788797",
+        "sh.brew.bottle.installed_size": "2658491",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-323-gde1ac14\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"linkage_files\":[\"bin/lzmadec\",\"bin/lzmainfo\",\"bin/xz\",\"bin/xzdec\",\"lib/liblzma.5.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1788964466,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 27\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-xz\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-xz\",\"name\":\"xz\",\"versionInfo\":\"5.8.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-12T16:54:56Z\",\"licenseConcluded\":\"0BSD AND GPL-2.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:b2b5d6523153be05c20bcc51cd358ea3dd1f4bf893748fdedb779ab508ea63ce\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/xz@5.8.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"b2b5d6523153be05c20bcc51cd358ea3dd1f4bf893748fdedb779ab508ea63ce\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-xz-src\"}]}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f96b57696e66861b5c35248657e40b7b4b83ce07d30fe4a15905de2ab1254741",
+      "size": 3779,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.4.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "fd4f4c75678cc31e474931ff9798f0ca9aeb137b401faec2f6339891f2b40f94",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "874824",
+        "sh.brew.bottle.installed_size": "3261254",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-321-g45931fa\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"linkage_files\":[\"bin/lzmadec\",\"bin/lzmainfo\",\"bin/xz\",\"bin/xzdec\",\"lib/liblzma.so.5.8.4\"],\"binary_relocation_files\":[],\"source_modified_time\":1788964466,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-xz\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-xz\",\"name\":\"xz\",\"versionInfo\":\"5.8.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-12T16:54:56Z\",\"licenseConcluded\":\"0BSD AND GPL-2.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:fd4f4c75678cc31e474931ff9798f0ca9aeb137b401faec2f6339891f2b40f94\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/xz@5.8.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"fd4f4c75678cc31e474931ff9798f0ca9aeb137b401faec2f6339891f2b40f94\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-xz-src\"}]}",
+        "sh.brew.path_exec_files": "bin/xzcat,bin/lzgrep,bin/xzdiff,bin/lzless,bin/lzfgrep,bin/lzmore,bin/xzgrep,bin/xzless,bin/xzfgrep,bin/lzcmp,bin/unxz,bin/lzdiff,bin/lzegrep,bin/xzdec,bin/lzmadec,bin/lzcat,bin/xzmore,bin/unlzma,bin/lzmainfo,bin/xz,bin/xzcmp,bin/xzegrep,bin/lzma"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bd4ea24ec56919277ed630b7b1a5ec6a88b481f6bdfab18841fe03f7da9c5904",
+      "size": 3712,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.4.arm64_sequoia",
+        "sh.brew.bottle.digest": "c2724c0db0398134694b8366d30d14f4de376115fb54c559c331d5fd0474af76",
+        "sh.brew.bottle.size": "789688",
+        "sh.brew.bottle.installed_size": "2659743",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-323-gde1ac14\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"linkage_files\":[\"bin/lzmadec\",\"bin/lzmainfo\",\"bin/xz\",\"bin/xzdec\",\"lib/liblzma.5.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1788964466,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-xz\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"26.3\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-xz\",\"name\":\"xz\",\"versionInfo\":\"5.8.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-12T16:54:56Z\",\"licenseConcluded\":\"0BSD AND GPL-2.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:c2724c0db0398134694b8366d30d14f4de376115fb54c559c331d5fd0474af76\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/xz@5.8.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"c2724c0db0398134694b8366d30d14f4de376115fb54c559c331d5fd0474af76\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-xz-src\"}]}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:241852dda37f9a1d106c188642c33921775a27bd1c6f31e95124858779e80e80",
+      "size": 3704,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.4.arm64_tahoe",
+        "sh.brew.bottle.digest": "d291ad2277682238329b0e4d249e5e2c948c4b10cd64dba1963d897330ad88dd",
+        "sh.brew.bottle.size": "788803",
+        "sh.brew.bottle.installed_size": "2658493",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-323-gde1ac14\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"linkage_files\":[\"bin/lzmadec\",\"bin/lzmainfo\",\"bin/xz\",\"bin/xzdec\",\"lib/liblzma.5.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1788964466,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26.6\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-xz\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-xz\",\"name\":\"xz\",\"versionInfo\":\"5.8.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-12T16:54:56Z\",\"licenseConcluded\":\"0BSD AND GPL-2.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:d291ad2277682238329b0e4d249e5e2c948c4b10cd64dba1963d897330ad88dd\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/xz@5.8.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"d291ad2277682238329b0e4d249e5e2c948c4b10cd64dba1963d897330ad88dd\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-xz-src\"}]}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:52a4f53e9b625b04d423195db5321047aa4aad0b086ea051f6155e706c8e36db",
+      "size": 3794,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.4.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "aa3b18af4d682e52746cd73dca60cec5422bfe1dc8bf4fff3c38a63fe4d516f5",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "863801",
+        "sh.brew.bottle.installed_size": "2828418",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-321-g45931fa\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"linkage_files\":[\"bin/lzmadec\",\"bin/lzmainfo\",\"bin/xz\",\"bin/xzdec\",\"lib/liblzma.so.5.8.4\"],\"binary_relocation_files\":[],\"source_modified_time\":1788964466,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"sapphirerapids\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-xz\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-xz\",\"name\":\"xz\",\"versionInfo\":\"5.8.4\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-12T16:54:56Z\",\"licenseConcluded\":\"0BSD AND GPL-2.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:aa3b18af4d682e52746cd73dca60cec5422bfe1dc8bf4fff3c38a63fe4d516f5\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/xz@5.8.4\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"aa3b18af4d682e52746cd73dca60cec5422bfe1dc8bf4fff3c38a63fe4d516f5\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-xz-src\"}]}",
+        "sh.brew.path_exec_files": "bin/lzmadec,bin/lzdiff,bin/lzegrep,bin/xzmore,bin/lzcat,bin/xzdec,bin/lzfgrep,bin/xzless,bin/xzfgrep,bin/lzma,bin/unxz,bin/xzdiff,bin/lzmainfo,bin/xzcat,bin/xzgrep,bin/xzegrep,bin/lzmore,bin/lzgrep,bin/lzcmp,bin/xz,bin/lzless,bin/xzcmp,bin/unlzma"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-09-12T16:54:56Z",
+    "org.opencontainers.image.description": "General-purpose data compression with high compression ratio",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/xz",
+    "org.opencontainers.image.licenses": "0BSD AND GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "5.8.4",
+    "org.opencontainers.image.revision": "eeb4f6c36cc6374fa705c44486c62df3646e8f03",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/eeb4f6c36cc6374fa705c44486c62df3646e8f03/Formula/x/xz.rb",
+    "org.opencontainers.image.title": "xz",
+    "org.opencontainers.image.url": "https://tukaani.org/xz/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "5.8.4"
+  }
+}

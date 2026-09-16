@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b4b0f402ef963c7e7e6870cff41e9a44080555cf1ff8f125e29d5f5066aead33",
+      "size": 3478,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 27"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.6.arm64_golden_gate",
+        "sh.brew.bottle.digest": "74b458562c5a589a612ebba8f8fc12f3ecbe083223eb4a368c723d88b26a454d",
+        "sh.brew.bottle.size": "757018",
+        "sh.brew.bottle.installed_size": "2639000",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"7.0.1-21-gef55185\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"linkage_files\":[\"lib/libhistory.8.3.dylib\",\"lib/libreadline.8.3.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 27\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-readline\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-readline\",\"name\":\"readline\",\"versionInfo\":\"8.3.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-15T11:29:29Z\",\"licenseConcluded\":\"GPL-3.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:74b458562c5a589a612ebba8f8fc12f3ecbe083223eb4a368c723d88b26a454d\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/readline@8.3.6\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"74b458562c5a589a612ebba8f8fc12f3ecbe083223eb4a368c723d88b26a454d\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-readline-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f798f394bd5f0ad40d7b83e0b69b706824534c27571fb8b1ccf5fafdabf7d1db",
+      "size": 4554,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.6.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "ba75518e6b5d5376aa56fe6754deaf9188cf5df9b24f5885dbf0baf8e27a5bbe",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "848892",
+        "sh.brew.bottle.installed_size": "3137263",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"7.0.1-21-gef55185\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"linkage_files\":[\"lib/libhistory.so.8.3\",\"lib/libreadline.so.8.3\"],\"binary_relocation_files\":[],\"source_modified_time\":1750882156,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ncurses-6.6\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-readline\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ncurses-6.6\",\"name\":\"ncurses\",\"versionInfo\":\"6.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"X11-distribute-modifications-variant\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:02abc7eacf7d1f27c992888494a19a397bd4911fc6a92c34db232714488aec12\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"02abc7eacf7d1f27c992888494a19a397bd4911fc6a92c34db232714488aec12\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ncurses@6.6\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-readline\",\"name\":\"readline\",\"versionInfo\":\"8.3.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-15T11:29:29Z\",\"licenseConcluded\":\"GPL-3.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:ba75518e6b5d5376aa56fe6754deaf9188cf5df9b24f5885dbf0baf8e27a5bbe\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/readline@8.3.6\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"ba75518e6b5d5376aa56fe6754deaf9188cf5df9b24f5885dbf0baf8e27a5bbe\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ncurses-6.6\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-readline\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-readline-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:58a49bc9434b240f50d4c188b7988b5ddb0da233541018837357fc1c6159b737",
+      "size": 3470,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.6.arm64_sequoia",
+        "sh.brew.bottle.digest": "461763fa21c050a59e5bbceedf67dcacf24e4aa4604490d73f0c9fa0f40e7fe5",
+        "sh.brew.bottle.size": "757266",
+        "sh.brew.bottle.installed_size": "2638876",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"7.0.1-21-gef55185\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"linkage_files\":[\"lib/libhistory.8.3.dylib\",\"lib/libreadline.8.3.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-readline\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"26.3\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-readline\",\"name\":\"readline\",\"versionInfo\":\"8.3.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-15T11:29:29Z\",\"licenseConcluded\":\"GPL-3.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:461763fa21c050a59e5bbceedf67dcacf24e4aa4604490d73f0c9fa0f40e7fe5\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/readline@8.3.6\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"461763fa21c050a59e5bbceedf67dcacf24e4aa4604490d73f0c9fa0f40e7fe5\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-readline-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:be00f73de734286faee018480559e9ec811e507896d12bbaf4cdbb30767e8e32",
+      "size": 3462,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.6.arm64_tahoe",
+        "sh.brew.bottle.digest": "15cdd69af824537192843db389cbfd2459b3797cf4f36c906f8f8ab617d7d59f",
+        "sh.brew.bottle.size": "757034",
+        "sh.brew.bottle.installed_size": "2639002",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"7.0.1-21-gef55185\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"linkage_files\":[\"lib/libhistory.8.3.dylib\",\"lib/libreadline.8.3.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26.6\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-readline\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-readline\",\"name\":\"readline\",\"versionInfo\":\"8.3.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-15T11:29:29Z\",\"licenseConcluded\":\"GPL-3.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:15cdd69af824537192843db389cbfd2459b3797cf4f36c906f8f8ab617d7d59f\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/readline@8.3.6\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"15cdd69af824537192843db389cbfd2459b3797cf4f36c906f8f8ab617d7d59f\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-readline-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9e2d769acb5e1617cbaf18ef781c6054c540a79226527abdac77e409004f450d",
+      "size": 4559,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.6.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "4edcc5d53fb104818fd0e642f18edaace69e60c24b5e892df2bd437670c32857",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "833069",
+        "sh.brew.bottle.installed_size": "3047481",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"7.0.1-21-gef55185\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"linkage_files\":[\"lib/libhistory.so.8.3\",\"lib/libreadline.so.8.3\"],\"binary_relocation_files\":[],\"source_modified_time\":1750882156,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":true,\"compatibility_version\":1}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Package-SPDXRef-ncurses-6.6\",\"SPDXRef-Compiler\",\"SPDXRef-Bottle-readline\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Package-SPDXRef-ncurses-6.6\",\"name\":\"ncurses\",\"versionInfo\":\"6.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"X11-distribute-modifications-variant\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:12c037b176c3300398cc53f0f278ba14195ae525cb6188dc085fd07236e5db48\",\"copyrightText\":\"NOASSERTION\",\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"12c037b176c3300398cc53f0f278ba14195ae525cb6188dc085fd07236e5db48\"}],\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/ncurses@6.6\",\"referenceType\":\"purl\"}]},{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-readline\",\"name\":\"readline\",\"versionInfo\":\"8.3.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-15T11:29:29Z\",\"licenseConcluded\":\"GPL-3.0-or-later\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:4edcc5d53fb104818fd0e642f18edaace69e60c24b5e892df2bd437670c32857\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/readline@8.3.6\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"4edcc5d53fb104818fd0e642f18edaace69e60c24b5e892df2bd437670c32857\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Package-SPDXRef-ncurses-6.6\",\"relationshipType\":\"RUNTIME_DEPENDENCY_OF\",\"relatedSpdxElement\":\"SPDXRef-Bottle-readline\"},{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-readline-src\"}]}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-09-15T11:29:29Z",
+    "org.opencontainers.image.description": "Library for command-line editing",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/readline",
+    "org.opencontainers.image.licenses": "GPL-3.0-or-later",
+    "org.opencontainers.image.ref.name": "8.3.6",
+    "org.opencontainers.image.revision": "edb41e1c7e66b20b2ff3784a02d515449106738b",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/edb41e1c7e66b20b2ff3784a02d515449106738b/Formula/r/readline.rb",
+    "org.opencontainers.image.title": "readline",
+    "org.opencontainers.image.url": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "8.3.6"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:176a80a55afef6e25a91dc5f2dda0dac36b63f0f16524c2aae9c4eb73eeb3ba1",
+      "size": 3384,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.19.arm64_linux.1",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "64475f64c83a75a0438e4d652bd75b0e7428f2e33e33377c88f087f4c652ed90",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "136580",
+        "sh.brew.bottle.installed_size": "535446",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.21-28-gfd18738\",\"changed_files\":[\"lib/pkgconfig/json-c.pc\"],\"linkage_files\":[\"lib/libjson-c.so.5.5.0\"],\"binary_relocation_files\":[],\"source_modified_time\":1782567925,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-json-c\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-json-c\",\"name\":\"json-c\",\"versionInfo\":\"0.19\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-02T12:53:48Z\",\"licenseConcluded\":\"MIT\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:64475f64c83a75a0438e4d652bd75b0e7428f2e33e33377c88f087f4c652ed90\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/json-c@0.19\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"64475f64c83a75a0438e4d652bd75b0e7428f2e33e33377c88f087f4c652ed90\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-json-c-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fea7be699434035e62873bb10b808681cd76524437ad9f003e76ca31bf045abd",
+      "size": 3321,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.19.arm64_sequoia.1",
+        "sh.brew.bottle.digest": "5624048dbb067f1a6d3784081029c3d738edeefd57188ce6724bb93d01aa53aa",
+        "sh.brew.bottle.size": "106627",
+        "sh.brew.bottle.installed_size": "359132",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.21-28-gfd18738\",\"changed_files\":[\"lib/pkgconfig/json-c.pc\"],\"linkage_files\":[\"lib/libjson-c.5.5.0.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1782567925,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-json-c\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"26.3\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-json-c\",\"name\":\"json-c\",\"versionInfo\":\"0.19\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-02T12:53:48Z\",\"licenseConcluded\":\"MIT\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:5624048dbb067f1a6d3784081029c3d738edeefd57188ce6724bb93d01aa53aa\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/json-c@0.19\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"5624048dbb067f1a6d3784081029c3d738edeefd57188ce6724bb93d01aa53aa\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-json-c-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1f0b001f5d8250e20a5c8edd2e4f7f3297e8eb5d34778c96b559b4cd0930e4cd",
+      "size": 3318,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.19.arm64_sonoma.1",
+        "sh.brew.bottle.digest": "ce9c5f6c7095110cd5c9336b9277e1845cc55bb0fc98c7550576587fd28abbb1",
+        "sh.brew.bottle.size": "107105",
+        "sh.brew.bottle.installed_size": "359820",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.21-28-gfd18738\",\"changed_files\":[\"lib/pkgconfig/json-c.pc\"],\"linkage_files\":[\"lib/libjson-c.5.5.0.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1782567925,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-json-c\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"16.2\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-json-c\",\"name\":\"json-c\",\"versionInfo\":\"0.19\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-02T12:53:48Z\",\"licenseConcluded\":\"MIT\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:ce9c5f6c7095110cd5c9336b9277e1845cc55bb0fc98c7550576587fd28abbb1\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/json-c@0.19\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"ce9c5f6c7095110cd5c9336b9277e1845cc55bb0fc98c7550576587fd28abbb1\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-json-c-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:62c5e257a1d6e58a449eef3c7637bb8b19e86baba2147a9e31ec704bec5cd5a7",
+      "size": 3311,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.19.arm64_tahoe.1",
+        "sh.brew.bottle.digest": "f2da9c816501d9c3c0e5f883b60b3d2758b35a3995e20d541d4b029d8b35ef13",
+        "sh.brew.bottle.size": "106948",
+        "sh.brew.bottle.installed_size": "358952",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.21-28-gfd18738\",\"changed_files\":[\"lib/pkgconfig/json-c.pc\"],\"linkage_files\":[\"lib/libjson-c.5.5.0.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1782567925,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.6\",\"clt\":\"26.6.0.0.1781586589\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-json-c\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"26.6\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-json-c\",\"name\":\"json-c\",\"versionInfo\":\"0.19\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-02T12:53:48Z\",\"licenseConcluded\":\"MIT\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:f2da9c816501d9c3c0e5f883b60b3d2758b35a3995e20d541d4b029d8b35ef13\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/json-c@0.19\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"f2da9c816501d9c3c0e5f883b60b3d2758b35a3995e20d541d4b029d8b35ef13\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-json-c-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:54dfaea9a685ef7f3e5ef328699948fe01f9b5cc8014843a02163378b3b2cb02",
+      "size": 3389,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 24.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.19.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "9745b482f9c14d66b5ec02f567a61f7ef29f9060cded74e5b37e322c139580af",
+        "sh.brew.bottle.glibc.version": "2.39",
+        "sh.brew.bottle.size": "131586",
+        "sh.brew.bottle.installed_size": "457016",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.21-28-gfd18738\",\"changed_files\":[\"lib/pkgconfig/json-c.pc\"],\"linkage_files\":[\"lib/libjson-c.so.5.5.0\"],\"binary_relocation_files\":[],\"source_modified_time\":1782567925,\"compiler\":\"gcc-13\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 24.04.4\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.39\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-json-c\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"gcc-13\",\"versionInfo\":\"NOASSERTION\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-json-c\",\"name\":\"json-c\",\"versionInfo\":\"0.19\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-02T12:53:48Z\",\"licenseConcluded\":\"MIT\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:9745b482f9c14d66b5ec02f567a61f7ef29f9060cded74e5b37e322c139580af\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/json-c@0.19\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"9745b482f9c14d66b5ec02f567a61f7ef29f9060cded74e5b37e322c139580af\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-json-c-src\"}]}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:250818ede8b98013ba23c978f2ca9fb457bce59633001389c701297f0411160e",
+      "size": 3330,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 27"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.19.arm64_golden_gate.1",
+        "sh.brew.bottle.digest": "6b45746f31780a84ae3ed11d056bd101d1b0a6d0f16bf91aad2d35a18f6107dc",
+        "sh.brew.bottle.size": "106958",
+        "sh.brew.bottle.installed_size": "358953",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"6.0.22-263-g983dcdc\",\"changed_files\":[\"lib/pkgconfig/json-c.pc\"],\"linkage_files\":[\"lib/libjson-c.5.5.0.dylib\"],\"binary_relocation_files\":[],\"source_modified_time\":1782567925,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 27\",\"cpu_family\":\"dunno\",\"xcode\":\"27.0\",\"clt\":\"27.0.0.0.1788430756\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.sbom.supplement": "{\"documentDescribes\":[\"SPDXRef-Compiler\",\"SPDXRef-Bottle-json-c\"],\"packages\":[{\"SPDXID\":\"SPDXRef-Compiler\",\"name\":\"clang\",\"versionInfo\":\"27.0\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"licenseConcluded\":\"NOASSERTION\",\"copyrightText\":\"NOASSERTION\",\"downloadLocation\":\"NOASSERTION\",\"checksums\":[],\"externalRefs\":[]},{\"SPDXID\":\"SPDXRef-Bottle-json-c\",\"name\":\"json-c\",\"versionInfo\":\"0.19\",\"filesAnalyzed\":false,\"licenseDeclared\":\"NOASSERTION\",\"builtDate\":\"2026-09-10T06:48:22Z\",\"licenseConcluded\":\"MIT\",\"downloadLocation\":\"https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:6b45746f31780a84ae3ed11d056bd101d1b0a6d0f16bf91aad2d35a18f6107dc\",\"copyrightText\":\"NOASSERTION\",\"externalRefs\":[{\"referenceCategory\":\"PACKAGE-MANAGER\",\"referenceLocator\":\"pkg:brew/json-c@0.19\",\"referenceType\":\"purl\"}],\"checksums\":[{\"algorithm\":\"SHA256\",\"checksumValue\":\"6b45746f31780a84ae3ed11d056bd101d1b0a6d0f16bf91aad2d35a18f6107dc\"}]}],\"relationships\":[{\"spdxElementId\":\"SPDXRef-Compiler\",\"relationshipType\":\"BUILD_TOOL_OF\",\"relatedSpdxElement\":\"SPDXRef-Archive-json-c-src\"}]}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-09-02T12:53:48Z",
+    "org.opencontainers.image.description": "JSON parser for C",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/json-c",
+    "org.opencontainers.image.licenses": "MIT",
+    "org.opencontainers.image.ref.name": "0.19-1",
+    "org.opencontainers.image.revision": "29209e1690e20fc7ef2211d24e7d61ce27b087e3",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/29209e1690e20fc7ef2211d24e7d61ce27b087e3/Formula/j/json-c.rb",
+    "org.opencontainers.image.title": "json-c",
+    "org.opencontainers.image.url": "https://github.com/json-c/json-c/wiki",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "0.19"
+  }
+}
