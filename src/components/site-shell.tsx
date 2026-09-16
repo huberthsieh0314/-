@@ -4,7 +4,7 @@ import { appNav } from "@/lib/nav";
 type SiteShellProps = {
   children: React.ReactNode;
   title: string;
-  subtitle: string;
+  subtitle?: string;
 };
 
 export function SiteShell({ children, title, subtitle }: SiteShellProps) {
@@ -20,9 +20,11 @@ export function SiteShell({ children, title, subtitle }: SiteShellProps) {
               <h1 className="mt-1 text-2xl font-semibold tracking-tight text-ink-950 sm:text-3xl">
                 {title}
               </h1>
-              <p className="mt-2 max-w-3xl text-sm leading-6 text-ink-700 sm:text-base">
-                {subtitle}
-              </p>
+              {subtitle ? (
+                <p className="mt-2 max-w-3xl text-sm leading-6 text-ink-700 sm:text-base">
+                  {subtitle}
+                </p>
+              ) : null}
             </div>
             <nav className="flex flex-wrap gap-2">
               {appNav.map((item) => (
